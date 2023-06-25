@@ -8,14 +8,18 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        'spin-slow': 'spin 10s linear infinite',
-      }
+        "spin-slow": "spin 10s linear infinite",
+      },
+      backgroundImage: {
+        solarSystemRound:
+          "repeating-radial-gradient(#0077b5 2px, #f5f5f5 5px,#f5f5f5 100px);",
+      },
     },
   },
   plugins: [],
-}
+};
