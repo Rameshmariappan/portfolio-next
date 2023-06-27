@@ -1,0 +1,48 @@
+{
+  "experience": [
+    {
+      "companyName": "Spritle Software ",
+      "address": "Chennai",
+      "content": [
+        "Improved collaboration with designers to ensure effective communication and alignment of design goals, resulting in highly polished interfaces and seamless user interactions.",
+        "Proactively generated innovative project ideas and refined development processes to maximize productivity and streamline workflow, resulting in improved project outcomes and reduced time-to-market.",
+        "Actively assisted senior developers in managing complex design projects by providing valuable insights, contributing to architectural decisions, and ensuring successful project execution within defined timelines.",
+        "Utilized advanced troubleshooting and debugging techniques to identify and resolve performance bottlenecks, resulting in enhanced application speed, responsiveness, and overall user satisfaction.",
+        "Showcased an unwavering commitment to delivering exceptional UI and UX by paying meticulous attention to detail during implementation, complemented by thorough testing to ensure a robust and seamless user experience."
+      ],
+      "role": "Junior Software developer",
+      "year": "Oct-2021 - Present"
+    },
+    {
+      "companyName": "Spritle Software ",
+      "address": "Chennai",
+      "content": [
+        "Collaborated with the development team to understand project requirements and implemented features under their guidance.",
+        "Actively participated in code reviews, providing constructive feedback and making necessary enhancements to ensure code quality.",
+        "Developed a movie application using React, where users can search and explore movie details.",
+        "Integrated The Movie Database (TMDb) API to fetch movie data, ensuring real-time information updates.",
+        "Implemented responsive design techniques to ensure optimal user experience across different devices and screen sizes.",
+        "Designed and developed a dashboard application inspired by JIRA, utilizing Bootstrap and Plain CSS for the user interface.",
+        "Developed a CRUD (Create, Read, Update, Delete) application using React Redux.",
+        "Designed and implemented a user interface to manage and manipulate data, providing seamless data operations.",
+        "Implemented data validation, error handling, and optimized performance for a smooth user experience."
+      ],
+      "role": "Software Developer -Intern",
+      "year": "Sep-2021 - Oct-2021"
+    },
+    {
+      "companyName": "French Institute of Pondicherry",
+      "address": "Pondicherry",
+      "content": [
+        "Contributed as a frontend developer during my internship at the French Institute of Pondicherry.",
+        "Took on the responsibility of developing an archive information system and atlas.",
+        "Leveraged my skills to create an intuitive and user-friendly frontend interface.",
+        "Collaborated with the research team to understand their requirements and incorporate them into the system.",
+        "Ensured the seamless integration of archival data and provided efficient access to relevant information.",
+        "Employed best practices in frontend development to deliver a high-quality and visually appealing system."
+      ],
+      "role": "Software trainee -Intern",
+      "year": "Feb-2021-May-2021"
+    }
+  ]
+}

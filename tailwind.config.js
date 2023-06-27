@@ -17,9 +17,14 @@ module.exports = {
       },
       backgroundImage: {
         solarSystemRound:
-          "repeating-radial-gradient(#0077b5 2px, #f5f5f5 5px,#f5f5f5 100px);",
+          "repeating-radial-gradient(black 2px, #f5f5f5 5px,#f5f5f5 100px);",
+      },
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };

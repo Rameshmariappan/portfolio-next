@@ -30,7 +30,7 @@ const Skills = (props: Props) => {
     <>
       <h2 className="font-bold text-8xl text-center w-full pt-64">Skills</h2>
       <div className=" w-full h-screen bg-solarSystemRound rounded-full flex items-center relative justify-center ">
-        <motion.div className="flex items-center justify-center absolute text-white bg-[#0077b5] py-3 px-6 rounded-full font-semibold">
+        <motion.div className="flex items-center justify-center absolute text-white bg-black py-3 px-6 rounded-full font-semibold">
           WEB
         </motion.div>
         <SkillContent name={"HTML"} x="-10vw" y="3vw" />

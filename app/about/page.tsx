@@ -4,7 +4,8 @@ import React, { useEffect, useRef } from "react";
 import AnimatedText from "../component/AnimatedText";
 import Cover from "../../public/Images/cover.png";
 import Image from "next/image";
-import Skills from "./Components/Skills";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 type Props = {};
 
 const AnimatedNumber = ({ value }: { value: any }) => {
@@ -106,6 +107,7 @@ const page = (props: Props) => {
         </div>
       </div>
       <Skills />
+      <Experience />
     </div>
   );
 };
