@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    name: "Basic Tee 6-Pack",
+    name: "SPRITLE OFFICIAL WEBSITE & HEALTH ENGINEER WEBSITE",
     images: [
       {
         src: "https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg",
@@ -21,21 +21,29 @@ export const products = [
       },
     ],
     description:
-      'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
+      "Health Engineers is a data-driven technology-based organization that joins Artificial Intelligence to build Groundbreaking Digital Healthcare Solutions.",
     highlights: [
-      "Hand cut and sewn locally",
-      "Dyed with our proprietary colors",
-      "Pre-washed & pre-shrunk",
-      "Ultra-soft 100% cotton",
+      "From the ground up, I worked on the responsive UI and UX for our Company Website.",
+      "Worked on enhancing the web app's user experience.      ",
+      "Wrote Node Function for Sending the email when user fill the Form",
     ],
-    major_skills: ["React", "Redux"],
-    overall_skill: ["React", "Redux"],
-    details:
-      'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+    major_skills: ["Hugo", "Javascript", "Bootstrap"],
+    overall_skill: [
+      "Hugo",
+      "Javascript",
+      "Bootstrap",
+      "nodemailer",
+      "SendGrid",
+      "GitLab",
+      "SAAS",
+      " J-Query",
+      "Ajax",
+      "node",
+    ],
   },
   {
     id: 2,
-    name: "Premium Hoodie",
+    name: "BRAIN GAME WEB",
     images: [
       {
         src: "https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg",
@@ -55,17 +63,16 @@ export const products = [
       },
     ],
     description:
-      "The Premium Hoodie offers the perfect blend of style and comfort. Made with high-quality materials and meticulous craftsmanship, this hoodie will keep you warm and stylish throughout the year.",
+      "A Stanford University neuroscientist's study endeavors to examine brain activity in youngsters.",
     highlights: [
-      "Made from premium cotton blend",
-      "Available in multiple colors",
-      "Ribbed cuffs and hem for a snug fit",
-      "Spacious front pockets",
+      "Made UI changes to improve the user interface of a project.",
+      "Implemented functionality to gather data from mobile devices and store it in Firebase in Excel format.",
+      "Worked on enhancing the user experience of a web application.",
+      "Developed a notification system to display information from end users regarding game completion status on the web.",
+      "Created Firebase functions to store user and game data in the Firebase database",
     ],
-    major_skills: ["React", "Redux"],
-    overall_skill: ["React", "Redux"],
-    details:
-      "The Premium Hoodie is available in sizes ranging from small to XXL. Choose from our wide range of colors to match your style. Stay cozy and fashionable with this versatile wardrobe essential.",
+    major_skills: ["React", "React Router","Firebase","GitLab"],
+    overall_skill: ["React", "React Router","Firebase","GitLab"],
   },
   // Add more product objects as needed
 ];

@@ -62,8 +62,7 @@ export default function Example({ params: { projectId } }: Params) {
             <div className="mt-6">
               <h3 className="sr-only">Reviews</h3>
               <div className="flex items-center">
-                <div className="flex items-center">
-                </div>
+                <div className="flex items-center"></div>
               </div>
             </div>
 
@@ -118,14 +117,15 @@ export default function Example({ params: { projectId } }: Params) {
                 </ul>
               </div>
             </div>
+            {product.details && (
+              <div className="mt-10">
+                <h2 className="text-sm font-medium text-gray-900">Details</h2>
 
-            <div className="mt-10">
-              <h2 className="text-sm font-medium text-gray-900">Details</h2>
-
-              <div className="mt-4 space-y-6">
-                <p className="text-sm text-gray-600">{product.details}</p>
+                <div className="mt-4 space-y-6">
+                  <p className="text-sm text-gray-600">{product.details}</p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
